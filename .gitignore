@@ -1,8 +1,23 @@
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local secrets
 .venv/
+env/
 venv/
-.expense-tracker.json
+.env
+
+# Build artefacts
+build/
+dist/
+*.egg-info/
+
+# Local data and exports
 *.csv
+.expense-tracker.json
+
 .DS_Store
